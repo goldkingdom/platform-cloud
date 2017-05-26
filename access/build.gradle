@@ -1,0 +1,9 @@
+subprojects {
+    dependencies {
+        compile("org.springframework.cloud:spring-cloud-starter-config",
+                "com.zaxxer:HikariCP",
+                "mysql:mysql-connector-java",
+                "com.oracle:ojdbc6:11.2.0.3")
+        compile project(":repository")
+    }
+}

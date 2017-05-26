@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: com.jcraft:jsch:0.1.53">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.m2/repository/com/jcraft/jsch/0.1.53/jsch-0.1.53.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

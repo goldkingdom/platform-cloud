@@ -1,0 +1,17 @@
+server.port: 1001
+
+spring:
+  application.name: config
+  cloud.config:
+    server:
+      git:
+        uri: http://git.oschina.net/goldkingdom/config-repo/
+        search-paths: properties
+#      default-label: provider-repo
+    enabled: true
+  profiles:
+    active: dev
+
+eureka:
+  instance.hostname: ${spring.application.name}
+  client.serviceUrl.defaultZone: http://localhost:9999/eureka/

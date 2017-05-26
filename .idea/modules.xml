@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/access/access.iml" filepath="$PROJECT_DIR$/.idea/modules/access/access.iml" group="access" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/access/access_main.iml" filepath="$PROJECT_DIR$/.idea/modules/access/access_main.iml" group="access" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/access/access_test.iml" filepath="$PROJECT_DIR$/.idea/modules/access/access_test.iml" group="access" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/business/business.iml" filepath="$PROJECT_DIR$/.idea/modules/business/business.iml" group="business" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/business/business1/business1.iml" filepath="$PROJECT_DIR$/.idea/modules/business/business1/business1.iml" group="business/business1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/business/business1/business1_main.iml" filepath="$PROJECT_DIR$/.idea/modules/business/business1/business1_main.iml" group="business/business1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/business/business1/business1_test.iml" filepath="$PROJECT_DIR$/.idea/modules/business/business1/business1_test.iml" group="business/business1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/business/business2/business2.iml" filepath="$PROJECT_DIR$/.idea/modules/business/business2/business2.iml" group="business/business2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/business/business2/business2_main.iml" filepath="$PROJECT_DIR$/.idea/modules/business/business2/business2_main.iml" group="business/business2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/business/business2/business2_test.iml" filepath="$PROJECT_DIR$/.idea/modules/business/business2/business2_test.iml" group="business/business2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/business/business3/business3.iml" filepath="$PROJECT_DIR$/.idea/modules/business/business3/business3.iml" group="business/business3" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/business/business3/business3_main.iml" filepath="$PROJECT_DIR$/.idea/modules/business/business3/business3_main.iml" group="business/business3" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/business/business3/business3_test.iml" filepath="$PROJECT_DIR$/.idea/modules/business/business3/business3_test.iml" group="business/business3" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/business/business4/business4.iml" filepath="$PROJECT_DIR$/.idea/modules/business/business4/business4.iml" group="business/business4" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/business/business4/business4_main.iml" filepath="$PROJECT_DIR$/.idea/modules/business/business4/business4_main.iml" group="business/business4" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/business/business4/business4_test.iml" filepath="$PROJECT_DIR$/.idea/modules/business/business4/business4_test.iml" group="business/business4" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/business/business_main.iml" filepath="$PROJECT_DIR$/.idea/modules/business/business_main.iml" group="business" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/business/business_test.iml" filepath="$PROJECT_DIR$/.idea/modules/business/business_test.iml" group="business" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/client/client.iml" filepath="$PROJECT_DIR$/.idea/modules/client/client.iml" group="client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/client/client_main.iml" filepath="$PROJECT_DIR$/.idea/modules/client/client_main.iml" group="client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/client/client_test.iml" filepath="$PROJECT_DIR$/.idea/modules/client/client_test.iml" group="client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/config/config.iml" filepath="$PROJECT_DIR$/.idea/modules/server/config/config.iml" group="server/config" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/config/config_main.iml" filepath="$PROJECT_DIR$/.idea/modules/server/config/config_main.iml" group="server/config" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/config/config_test.iml" filepath="$PROJECT_DIR$/.idea/modules/server/config/config_test.iml" group="server/config" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/discovery/discovery.iml" filepath="$PROJECT_DIR$/.idea/modules/server/discovery/discovery.iml" group="server/discovery" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/discovery/discovery_main.iml" filepath="$PROJECT_DIR$/.idea/modules/server/discovery/discovery_main.iml" group="server/discovery" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/discovery/discovery_test.iml" filepath="$PROJECT_DIR$/.idea/modules/server/discovery/discovery_test.iml" group="server/discovery" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/access/jpa/jpa.iml" filepath="$PROJECT_DIR$/.idea/modules/access/jpa/jpa.iml" group="access/jpa" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/access/jpa/jpa_main.iml" filepath="$PROJECT_DIR$/.idea/modules/access/jpa/jpa_main.iml" group="access/jpa" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/access/jpa/jpa_test.iml" filepath="$PROJECT_DIR$/.idea/modules/access/jpa/jpa_test.iml" group="access/jpa" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/access/mybatis/mybatis.iml" filepath="$PROJECT_DIR$/.idea/modules/access/mybatis/mybatis.iml" group="access/mybatis" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/access/mybatis/mybatis_main.iml" filepath="$PROJECT_DIR$/.idea/modules/access/mybatis/mybatis_main.iml" group="access/mybatis" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/access/mybatis/mybatis_test.iml" filepath="$PROJECT_DIR$/.idea/modules/access/mybatis/mybatis_test.iml" group="access/mybatis" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/platform-cloud.iml" filepath="$PROJECT_DIR$/.idea/modules/platform-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/platform-cloud_main.iml" filepath="$PROJECT_DIR$/.idea/modules/platform-cloud_main.iml" group="platform-cloud" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/platform-cloud_test.iml" filepath="$PROJECT_DIR$/.idea/modules/platform-cloud_test.iml" group="platform-cloud" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/repository/repository.iml" filepath="$PROJECT_DIR$/.idea/modules/repository/repository.iml" group="repository" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/repository/repository_main.iml" filepath="$PROJECT_DIR$/.idea/modules/repository/repository_main.iml" group="repository" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/repository/repository_test.iml" filepath="$PROJECT_DIR$/.idea/modules/repository/repository_test.iml" group="repository" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/server.iml" filepath="$PROJECT_DIR$/.idea/modules/server/server.iml" group="server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/server/server_main.iml" group="server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/server/server_test.iml" group="server" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,11 @@
+server.port: 3001
+
+spring.application.name: client
+
+eureka.client.serviceUrl.defaultZone: http://localhost:9999/eureka/
+
+provider:
+  mybatis: business1
+  jpa: business3
+
+baseConfig.version: 1.0-SNAPSHOT

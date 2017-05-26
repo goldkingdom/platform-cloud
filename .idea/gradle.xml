@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/access" />
+            <option value="$PROJECT_DIR$/access/jpa" />
+            <option value="$PROJECT_DIR$/access/mybatis" />
+            <option value="$PROJECT_DIR$/business" />
+            <option value="$PROJECT_DIR$/business/business1" />
+            <option value="$PROJECT_DIR$/business/business2" />
+            <option value="$PROJECT_DIR$/business/business3" />
+            <option value="$PROJECT_DIR$/business/business4" />
+            <option value="$PROJECT_DIR$/client" />
+            <option value="$PROJECT_DIR$/repository" />
+            <option value="$PROJECT_DIR$/server" />
+            <option value="$PROJECT_DIR$/server/config" />
+            <option value="$PROJECT_DIR$/server/discovery" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
