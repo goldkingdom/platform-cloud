@@ -1,4 +1,3 @@
 dependencies {
-    compile project(":server:config")
     compile project(":access:mybatis")
 }
