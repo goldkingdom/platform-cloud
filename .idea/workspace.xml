@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe546ce2-5a50-4e42-9bc4-9d58dbe1397a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/config/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/server/config/src/main/resources/application.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/business/business1/src/main/resources/bootstrap.yml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/business/business1/src/main/resources/application-dev.yml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/business/business1/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/business/business1/src/main/resources/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/config/build/resources/main/application.yml" afterPath="$PROJECT_DIR$/server/config/build/resources/main/application.yml" />
     </list>
     <ignored path="platform-cloud.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,10 +77,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/config/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
+            <state relative-caret-position="190">
               <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
               <folding />
             </state>
@@ -96,18 +100,18 @@
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/business/business1/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+            <state relative-caret-position="171">
+              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application-dev.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/business/business1/src/main/resources/application-dev.yml">
+      <file leaf-file-name="bootstrap.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/business/business1/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+            <state relative-caret-position="57">
+              <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -2537,10 +2541,11 @@
         <option value="$PROJECT_DIR$/business/business2/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/business/business4/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/access/mybatis/src/main/java/cn/xj/common/util/ConvertUtil.java" />
-        <option value="$PROJECT_DIR$/business/business1/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/business/business1/src/main/resources/application-dev.yml" />
         <option value="$PROJECT_DIR$/server/config/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/server/config/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/business/business1/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/business/business1/src/main/resources/bootstrap.yml" />
       </list>
     </option>
   </component>
@@ -3360,16 +3365,16 @@
       <workItem from="1496195432828" duration="1718000" />
       <workItem from="1496201522251" duration="232000" />
       <workItem from="1496221633532" duration="4406000" />
-      <workItem from="1496279954614" duration="6032000" />
+      <workItem from="1496279954614" duration="6694000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47694000" />
+    <option name="totallyTimeSpent" value="48356000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -3381,7 +3386,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.50653595" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31699347" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -3461,13 +3466,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/server/discovery/src/main/java/cn/xj/DiscoveryApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/discovery/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -3777,18 +3775,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/business/business1/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/business/business1/src/main/resources/application-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/config/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
           <folding />
         </state>
       </provider>
@@ -3801,10 +3799,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/config/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/business/business1/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        <state relative-caret-position="171">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business/business1/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
           <folding />
         </state>
       </provider>

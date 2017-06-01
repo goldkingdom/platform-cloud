@@ -15,5 +15,5 @@ spring:
       force: true
       enabled: true
       charset: UTF-8
-  profiles:
-    active: dev
+#  profiles:
+#    active: dev
