@@ -8,7 +8,7 @@ spring:
         search-paths: config-repo
     enabled: true
   profiles:
-    active: subversion
+    active: dev
 
 eureka:
   instance.hostname: ${spring.application.name}
