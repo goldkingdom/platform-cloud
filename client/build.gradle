@@ -1,4 +1,5 @@
 dependencies {
     compile("org.springframework.cloud:spring-cloud-starter-feign")
     compile project(":repository")
+    compile project(":web")
 }

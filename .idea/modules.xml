@@ -5,6 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/access/access.iml" filepath="$PROJECT_DIR$/.idea/modules/access/access.iml" group="access" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/access/access_main.iml" filepath="$PROJECT_DIR$/.idea/modules/access/access_main.iml" group="access" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/access/access_test.iml" filepath="$PROJECT_DIR$/.idea/modules/access/access_test.iml" group="access" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app_main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app_main.iml" group="app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app_test.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app_test.iml" group="app" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/business/business.iml" filepath="$PROJECT_DIR$/.idea/modules/business/business.iml" group="business" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/business/business1/business1.iml" filepath="$PROJECT_DIR$/.idea/modules/business/business1/business1.iml" group="business/business1" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/business/business1/business1_main.iml" filepath="$PROJECT_DIR$/.idea/modules/business/business1/business1_main.iml" group="business/business1" />
@@ -44,6 +47,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/server.iml" filepath="$PROJECT_DIR$/.idea/modules/server/server.iml" group="server" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/server/server_main.iml" group="server" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/server/server_test.iml" group="server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web/web.iml" filepath="$PROJECT_DIR$/.idea/modules/web/web.iml" group="web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web/web_main.iml" filepath="$PROJECT_DIR$/.idea/modules/web/web_main.iml" group="web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web/web_test.iml" filepath="$PROJECT_DIR$/.idea/modules/web/web_test.iml" group="web" />
     </modules>
   </component>
 </project>

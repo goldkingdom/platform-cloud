@@ -20,4 +20,6 @@ findProject(':business:business3')?.name = 'business3'
 include 'business:business4'
 findProject(':business:business4')?.name = 'business4'
 include 'client'
+include 'app'
+include 'web'
 
