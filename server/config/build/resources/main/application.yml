@@ -5,7 +5,7 @@ spring:
     server:
       git:
         uri: https://github.com/goldkingdom/platform-cloud/
-        search-paths: server/config-repo
+        search-paths: server/config/config-repo
     enabled: true
   profiles:
     active: dev
