@@ -1,13 +1,11 @@
 server.port: 1001
 
 spring:
-  application.name: config
   cloud.config:
     server:
       git:
-        uri: http://git.oschina.net/goldkingdom/config-repo/
-        search-paths: properties
-#      default-label: provider-repo
+        uri: https://git.oschina.net/goldkingdom/platform-cloud/server/
+        search-paths: config-repo
     enabled: true
   profiles:
     active: dev

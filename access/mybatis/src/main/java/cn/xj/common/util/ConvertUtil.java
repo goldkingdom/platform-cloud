@@ -7,6 +7,7 @@ import com.google.common.base.Objects;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
 import org.springframework.cglib.beans.BeanMap;
 
@@ -212,6 +213,17 @@ public class ConvertUtil {
         Gson gson = new Gson();
         T bean = gson.fromJson(json, clazz);
         return bean;
+    }
+
+    /**
+     * 将map转成json字符串
+     *
+     * @param map
+     * @return
+     */
+    public static String mapToJson(Map map) {
+        Gson gson = new GsonBuilder().enableComplexMapKeySerialization().create();
+        return gson.toJson(map);
     }
 
     public static void main(String[] args) {
