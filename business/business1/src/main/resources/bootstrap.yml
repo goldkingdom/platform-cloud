@@ -1,5 +1,1 @@
-spring.cloud.config:
-  name: business1
-  profile: dev
-  uri: http://localhost:1001/
-  label: master
+spring.cloud.config.name: business1
