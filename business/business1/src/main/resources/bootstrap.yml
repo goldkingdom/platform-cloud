@@ -1,1 +1,6 @@
-spring.cloud.config.name: business1
+spring:
+  application.name: business1
+  cloud.config:
+    uri: http://localhost:${config.port:1001}
+    name: ${spring.application.name}
+    profile: ${config.profile:dev}

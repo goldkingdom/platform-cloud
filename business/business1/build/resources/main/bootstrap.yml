@@ -1,5 +1,3 @@
-spring.cloud.config:
-  name: business1
-  profile: ${config.profile:dev}
-  uri: http://localhost:1001/
-  label: master
+spring:
+  application.name: business1
+  cloud.config.name: ${spring.application.name}
