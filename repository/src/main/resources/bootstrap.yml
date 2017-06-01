@@ -1,0 +1,6 @@
+spring:
+  application.name: repository
+  cloud.config:
+    uri: http://localhost:${config.port:1001}
+    name: ${spring.application.name}
+    profile: ${config.profile:dev}
