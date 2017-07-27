@@ -1,25 +1,26 @@
-rootProject.name = 'platform-cloud'
-include 'repository'
-include 'server'
-include 'server:discovery'
-findProject(':server:discovery')?.name = 'discovery'
-include 'server:config'
-findProject(':server:config')?.name = 'config'
-include 'access'
-include 'access:mybatis'
-findProject(':access:mybatis')?.name = 'mybatis'
-include 'access:jpa'
-findProject(':access:jpa')?.name = 'jpa'
-include 'business'
-include 'business:business1'
-findProject(':business:business1')?.name = 'business1'
-include 'business:business2'
-findProject(':business:business2')?.name = 'business2'
-include 'business:business3'
-findProject(':business:business3')?.name = 'business3'
-include 'business:business4'
-findProject(':business:business4')?.name = 'business4'
-include 'client'
-include 'app'
-include 'web'
+rootProject.name = "platform-cloud"
+include "repository"
+include "server"
+include "server:discovery"
+findProject(":server:discovery")?.name = "discovery"
+include "server:config"
+findProject(":server:config")?.name = "config"
+include "access"
+include "access:mybatis"
+findProject(":access:mybatis")?.name = "mybatis"
+include "access:jpa"
+findProject(":access:jpa")?.name = "jpa"
+include "business"
+include "business:business1"
+findProject(":business:business1")?.name = "business1"
+include "business:business2"
+findProject(":business:business2")?.name = "business2"
+include "business:business3"
+findProject(":business:business3")?.name = "business3"
+include "business:business4"
+findProject(":business:business4")?.name = "business4"
+include "client"
+include "redis"
+include "app"
+include "web"
 

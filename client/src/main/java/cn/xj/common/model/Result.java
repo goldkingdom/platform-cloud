@@ -9,8 +9,8 @@ public class Result extends ResultTemplate {
         super();
     }
 
-    public Result(String version, String method, Object result) {
-        super(version, method, result);
+    public Result(String version, String method, Object response) {
+        super(version, method, response);
     }
 
 }

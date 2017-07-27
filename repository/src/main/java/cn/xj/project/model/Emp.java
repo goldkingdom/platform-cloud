@@ -40,6 +40,7 @@ public class Emp extends BaseModel implements Serializable {
     private String address;
 
     @Column(name = "date")
+    @Meta(format = "date_format(@,'%Y-%m-%d')")
     private Date date;
 
     public Long getId() {

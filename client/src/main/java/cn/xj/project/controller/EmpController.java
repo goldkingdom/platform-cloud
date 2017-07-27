@@ -28,13 +28,6 @@ public class EmpController {
     @Autowired
     private MybatisEmpService mybatisEmpService;
 
-    @RequestMapping("/info")
-    public Object info() {
-        Map map = Maps.newHashMap();
-        map.put("info", "hello hello hello");
-        return map;
-    }
-
     @RequestMapping("/findEmpById/{id}")
     public Object findEmpById(@PathVariable Long id) {
         Map vo = Maps.newHashMap();
@@ -62,7 +55,8 @@ public class EmpController {
     @RequestMapping("/findAll")
     public Object findAll() {
         List<Emp> list = jpaEmpService.findAll();
-        return list;
+        Result result = new Result(baseConfig.getVersion(), Thread.currentThread().getStackTrace()[1].getMethodName(), list);
+        return result;
     }
 
 }

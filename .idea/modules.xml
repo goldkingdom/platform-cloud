@@ -41,6 +41,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/platform-cloud.iml" filepath="$PROJECT_DIR$/.idea/modules/platform-cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/platform-cloud_main.iml" filepath="$PROJECT_DIR$/.idea/modules/platform-cloud_main.iml" group="platform-cloud" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/platform-cloud_test.iml" filepath="$PROJECT_DIR$/.idea/modules/platform-cloud_test.iml" group="platform-cloud" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/redis/redis.iml" filepath="$PROJECT_DIR$/.idea/modules/redis/redis.iml" group="redis" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/redis/redis_main.iml" filepath="$PROJECT_DIR$/.idea/modules/redis/redis_main.iml" group="redis" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/redis/redis_test.iml" filepath="$PROJECT_DIR$/.idea/modules/redis/redis_test.iml" group="redis" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/repository/repository.iml" filepath="$PROJECT_DIR$/.idea/modules/repository/repository.iml" group="repository" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/repository/repository_main.iml" filepath="$PROJECT_DIR$/.idea/modules/repository/repository_main.iml" group="repository" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/repository/repository_test.iml" filepath="$PROJECT_DIR$/.idea/modules/repository/repository_test.iml" group="repository" />

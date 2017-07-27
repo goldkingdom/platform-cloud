@@ -45,6 +45,8 @@
       <module name="mybatis_test" target="1.8" />
       <module name="platform-cloud_main" target="1.8" />
       <module name="platform-cloud_test" target="1.8" />
+      <module name="redis_main" target="1.8" />
+      <module name="redis_test" target="1.8" />
       <module name="repository_main" target="1.8" />
       <module name="repository_test" target="1.8" />
       <module name="server_main" target="1.8" />

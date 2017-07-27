@@ -1,5 +1,6 @@
 package cn.xj.common.model;
 
+import cn.xj.common.tool.IdWorker;
 import cn.xj.common.util.ConvertUtil;
 import com.google.common.collect.Lists;
 
@@ -80,13 +81,17 @@ public class BaseInfo implements Serializable {
         StringBuffer buffer = new StringBuffer();
         int len = list.size() - 1;
         if (list != null && len > 0) {
+            IdWorker idWorker = new IdWorker(0, 0);
+            Long id;
             buffer.append("(");
             for (int i = 0; i < len; i++) {
-                buffer.append("{" + list.get(i).hashCode() + "," + type + "}");
-                this.params.put("" + list.get(i).hashCode(), list.get(i).get(key));
+                id = idWorker.nextId();
+                buffer.append("{").append(id).append(",").append(type).append("}");
+                this.params.put("" + id, list.get(i).get(key));
             }
-            buffer.append("{" + list.get(len).hashCode() + "," + type + "})");
-            this.params.put("" + list.get(len).hashCode(), list.get(len).get(key));
+            id = idWorker.nextId();
+            buffer.append("{").append(id).append(",").append(type).append("})");
+            this.params.put("" + id, list.get(len).get(key));
         }
         this.setInstruction(this.instruction.replace(this.instruction.indexOf(mark), this.instruction.indexOf(mark) + mark.length(), buffer.toString()));
     }

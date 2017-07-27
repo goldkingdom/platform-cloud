@@ -3,13 +3,18 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-
-Vue.config.productionTip = false
+import store from './service/vuex/store'
 
 /* eslint-disable no-new */
-new Vue({
+Vue.directive('enabled', {
+  update: function (el, binding) {
+    el.disabled = binding.value;
+  }
+});
+var app = new Vue({
   el: '#app',
   router,
+  store,
   template: '<App/>',
-  components: { App }
-})
+  components: {App}
+});

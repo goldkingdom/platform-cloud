@@ -1,5 +1,5 @@
 {
-  "name": "first-vue",
+  "name": "vue-app",
   "version": "1.0.0",
   "description": "A Vue.js project",
   "author": "",
@@ -13,8 +13,10 @@
     "test": "npm run unit && npm run e2e"
   },
   "dependencies": {
+    "axios": "^0.16.2",
     "vue": "^2.2.6",
-    "vue-router": "^2.3.1"
+    "vue-router": "^2.3.1",
+    "vuex": "^2.3.1"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.2",

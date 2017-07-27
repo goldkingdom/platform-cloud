@@ -7,7 +7,7 @@ import cn.xj.common.model.BaseBean;
 import cn.xj.common.model.InstructionBuilder;
 import cn.xj.common.sql.mapper.SqlMapper;
 import cn.xj.common.sql.service.SqlService;
-import cn.xj.common.sql.service.PagerService;
+import cn.xj.common.sql.service.PaginationService;
 import cn.xj.common.util.CollectionUtil;
 import cn.xj.common.util.ConvertUtil;
 import com.google.common.collect.Lists;
@@ -30,7 +30,7 @@ public class SqlServiceImpl implements SqlService {
     private SqlMapper sqlMapper;
 
     @Autowired
-    private PagerService pagerService;
+    private PaginationService paginationService;
 
     //保存时的校验
     private void saveCheck(Map<String, Object> params, String className) {
@@ -51,7 +51,7 @@ public class SqlServiceImpl implements SqlService {
         }
     }
 
-    //查询的默认检查
+    //查询时的默认检查
     private StringBuffer queryCheck(String alias, String className) {
         StringBuffer check = new StringBuffer();
         Map<String, Meta> metaMap = container.getMetaContainer().get(className);
@@ -218,8 +218,8 @@ public class SqlServiceImpl implements SqlService {
     }
 
     @Override
-    public List query(StringBuffer sql, Map params, Map pager, String countColumn) {
-        return pagerService.query(sql, params, pager, countColumn);
+    public List query(StringBuffer sql, Map params, Map pagination, String countColumn) {
+        return paginationService.query(sql, params, pagination, countColumn);
     }
 
     @Override
@@ -270,8 +270,8 @@ public class SqlServiceImpl implements SqlService {
     }
 
     @Override
-    public List select(Map<String, String> assets, StringBuffer jql, Map params, Map pager, String countColumn) throws Exception {
-        List list = this.query(this.resolve(assets, jql, null), params, pager, countColumn);
+    public List select(Map<String, String> assets, StringBuffer jql, Map params, Map pagination, String countColumn) throws Exception {
+        List list = this.query(this.resolve(assets, jql, null), params, pagination, countColumn);
         return list;
     }
 
@@ -283,8 +283,8 @@ public class SqlServiceImpl implements SqlService {
     }
 
     @Override
-    public <T extends BaseBean> List<T> select(StringBuffer sql, Map params, Map pager, String countColumn, Class<T> clazz) throws Exception {
-        List<Map<String, Object>> maps = this.query(sql, params, pager, countColumn);
+    public <T extends BaseBean> List<T> select(StringBuffer sql, Map params, Map pagination, String countColumn, Class<T> clazz) throws Exception {
+        List<Map<String, Object>> maps = this.query(sql, params, pagination, countColumn);
         List<T> list = ConvertUtil.mapsToBeans(maps, clazz);
         return list;
     }
@@ -295,7 +295,7 @@ public class SqlServiceImpl implements SqlService {
     }
 
     @Override
-    public <T extends BaseBean> List<T> cascadeSelect(Map<String, String> assets, StringBuffer jql, Map params, Map pager, String countColumn) throws Exception {
+    public <T extends BaseBean> List<T> cascadeSelect(Map<String, String> assets, StringBuffer jql, Map params, Map pagination, String countColumn) throws Exception {
         return null;
     }
 
@@ -470,9 +470,6 @@ public class SqlServiceImpl implements SqlService {
         StringBuffer sql = container.getInstructionContainer().get(key).get("delete");
         boolean flag = this.remove(sql, params);
         return flag;
-    }
-
-    public static void main(String[] args) throws Exception {
     }
 
 }

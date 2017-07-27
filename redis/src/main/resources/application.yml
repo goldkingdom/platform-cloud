@@ -1,0 +1,6 @@
+spring:
+  redis:
+    cluster:
+      nodes:
+        - redis0: 7000
+        - redis1: 7001

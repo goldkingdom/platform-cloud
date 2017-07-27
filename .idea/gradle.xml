@@ -19,6 +19,7 @@
             <option value="$PROJECT_DIR$/business/business3" />
             <option value="$PROJECT_DIR$/business/business4" />
             <option value="$PROJECT_DIR$/client" />
+            <option value="$PROJECT_DIR$/redis" />
             <option value="$PROJECT_DIR$/repository" />
             <option value="$PROJECT_DIR$/server" />
             <option value="$PROJECT_DIR$/server/config" />

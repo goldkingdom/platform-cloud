@@ -71,10 +71,10 @@ public class ResultTemplate {
         this.flag = true;
     }
 
-    public ResultTemplate(String version, String method, Object result) {
+    public ResultTemplate(String version, String method, Object response) {
         this.version = version;
         this.method = method;
-        this.response = result;
+        this.response = response;
         this.message = null;
         this.code = "0000";
         this.flag = true;
